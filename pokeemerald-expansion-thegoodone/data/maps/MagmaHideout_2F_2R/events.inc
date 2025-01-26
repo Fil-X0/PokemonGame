@@ -1,0 +1,19 @@
+@
+@ DO NOT MODIFY THIS FILE! It is auto-generated from data/maps/MagmaHideout_2F_2R/map.json
+@
+
+MagmaHideout_2F_2R_ObjectEvents:
+	object_event 1, OBJ_EVENT_GFX_MAGMA_MEMBER_M, 29, 8, 3, MOVEMENT_TYPE_FACE_LEFT, 1, 1, TRAINER_TYPE_NORMAL, 7, MagmaHideout_2F_2R_EventScript_Grunt8, FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS
+	object_event 2, OBJ_EVENT_GFX_MAGMA_MEMBER_M, 25, 11, 3, MOVEMENT_TYPE_FACE_RIGHT, 1, 1, TRAINER_TYPE_NORMAL, 2, MagmaHideout_2F_2R_EventScript_Grunt7, FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS
+	object_event 3, OBJ_EVENT_GFX_ITEM_BALL, 21, 7, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, TRAINER_TYPE_NONE, 0, MagmaHideout_2F_2R_EventScript_ItemMaxElixir, FLAG_ITEM_MAGMA_HIDEOUT_2F_2R_MAX_ELIXIR
+	object_event 4, OBJ_EVENT_GFX_MAGMA_MEMBER_M, 8, 9, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, TRAINER_TYPE_NORMAL, 4, MagmaHideout_2F_2R_EventScript_Grunt6, FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS
+	object_event 5, OBJ_EVENT_GFX_MAGMA_MEMBER_F, 7, 13, 3, MOVEMENT_TYPE_FACE_RIGHT, 1, 1, TRAINER_TYPE_NORMAL, 1, MagmaHideout_2F_2R_EventScript_Grunt15, FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS
+	object_event 6, OBJ_EVENT_GFX_ITEM_BALL, 14, 6, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, TRAINER_TYPE_NONE, 0, MagmaHideout_2F_2R_EventScript_ItemFullRestore, FLAG_ITEM_MAGMA_HIDEOUT_2F_2R_FULL_RESTORE
+
+MagmaHideout_2F_2R_MapWarps:
+	warp_def 10, 22, 3, 0, MAP_MAGMA_HIDEOUT_2F_1R
+	warp_def 36, 4, 0, 2, MAP_MAGMA_HIDEOUT_1F
+
+MagmaHideout_2F_2R_MapEvents::
+	map_events MagmaHideout_2F_2R_ObjectEvents, MagmaHideout_2F_2R_MapWarps, NULL, NULL
+

@@ -1,0 +1,5 @@
+# Convert all text files to LF on commit
+* text=auto
+
+# Ensure specific files always use LF
+*.inc text eol=lf

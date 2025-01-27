@@ -409,7 +409,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectSteelBeam               @ EFFECT_STEEL_BEAM
 	.4byte BattleScript_EffectExtremeEvoboost         @ EFFECT_EXTREME_EVOBOOST
 	.4byte BattleScript_EffectHitSetRemoveTerrain     @ EFFECT_HIT_SET_REMOVE_TERRAIN
-	.4byte BattleScript_EffectDarkVoid                @ EFFECT_DARK_VOID
+	//.4byte BattleScript_EffectDarkVoid                @ EFFECT_DARK_VOID
 	.4byte BattleScript_EffectSleepHit                @ EFFECT_SLEEP_HIT
 	.4byte BattleScript_EffectDoubleShock             @ EFFECT_DOUBLE_SHOCK
 	.4byte BattleScript_EffectSpecialAttackUpHit      @ EFFECT_SPECIAL_ATTACK_UP_HIT
@@ -3335,12 +3335,13 @@ BattleScript_MoveMissed::
 	resultmessage
 	waitmessage B_WAIT_TIME_LONG
 	goto BattleScript_MoveEnd
-
+/*
 BattleScript_EffectDarkVoid::
 .if B_DARK_VOID_FAIL >= GEN_7
 	jumpifspecies BS_ATTACKER, SPECIES_DARKRAI, BattleScript_EffectSleep
 	goto BattleScript_PokemonCantUseTheMove
 .endif
+*/
 BattleScript_EffectSleep::
 	attackcanceler
 	attackstring

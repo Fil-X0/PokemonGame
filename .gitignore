@@ -42,6 +42,10 @@
 *.idb
 *.pdb
 
+#Pokemon -Y
+*.gba
+
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd

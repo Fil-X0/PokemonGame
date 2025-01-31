@@ -1,0 +1,5 @@
+# Execute commands in debian terminal
+input : nproc 
+output : [Random number]
+
+input : make -j[random number]

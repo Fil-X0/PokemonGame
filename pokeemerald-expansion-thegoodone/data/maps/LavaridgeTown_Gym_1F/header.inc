@@ -11,7 +11,7 @@ LavaridgeTown_Gym_1F:
 	.2byte LAYOUT_LAVARIDGE_TOWN_GYM_1F
 	.byte MAPSEC_LAVARIDGE_TOWN
 	.byte FALSE
-	.byte WEATHER_FOG_HORIZONTAL
+	.byte WEATHER_SUNNY
 	.byte MAP_TYPE_INDOOR
 	.2byte 0
 	map_header_flags allow_cycling=FALSE, allow_escaping=FALSE, allow_running=FALSE, show_map_name=FALSE

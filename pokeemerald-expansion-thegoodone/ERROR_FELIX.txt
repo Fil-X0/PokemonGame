@@ -1,0 +1,77 @@
+tools/mapjson/mapjson groups emerald data/maps/map_groups.json
+tools/mapjson/mapjson layouts emerald data/layouts/layouts.json
+tools/jsonproc/jsonproc src/data/wild_encounters.json src/data/wild_encounters.json.txt src/data/wild_encounters.h
+tools/mapjson/mapjson map emerald data/maps/AbandonedShip_Corridors_1F/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/AbandonedShip_Corridors_B1F/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/AbandonedShip_Deck/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/AbandonedShip_Rooms_1F/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/AbandonedShip_Rooms2_1F/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/AbandonedShip_Rooms2_B1F/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/AbandonedShip_Rooms_B1F/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/DewfordTown/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/EverGrandeCity_ChampionsRoom/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/EverGrandeCity_DrakesRoom/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/EverGrandeCity_GlaciasRoom/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/EverGrandeCity_PhoebesRoom/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/EverGrandeCity_SidneysRoom/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/FallarborTown/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/FortreeCity_Gym/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/FortreeCity/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/GraniteCave_B1F/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/JaggedPass/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/LavaridgeTown_Gym_1F/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/LavaridgeTown_Gym_B1F/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/LavaridgeTown/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/LittlerootTown/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/MauvilleCity/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/MeteorFalls_1F_1R/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/MtChimney/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/MtPyre_Exterior/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/MtPyre_Summit/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/OldaleTown/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/PetalburgCity_Gym/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/PetalburgCity/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/PetalburgWoods/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route101/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route102/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route103/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route104/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route105/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route106/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route107/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route108/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route109/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route110/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route111/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route112/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route113/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route114/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route115/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route116/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route118/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route119/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route119_WeatherInstitute_1F/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route119_WeatherInstitute_2F/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route120/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route123/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route133/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/Route134/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/RustboroCity/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/SlateportCity/map.json data/layouts/layouts.json
+tools/mapjson/mapjson map emerald data/maps/VerdanturfTown/map.json data/layouts/layouts.json
+tools/preproc/preproc data/battle_scripts_1.s charmap.txt | arm-none-eabi-cpp -I include - | arm-none-eabi-as -mcpu=arm7tdmi --defsym MODERN=1 -o build/modern/data/battle_scripts_1.o
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/AgbRfu_LinkManager.o src/AgbRfu_LinkManager.c
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/apprentice.o src/apprentice.c
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/bard_music.o src/bard_music.c
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/battle_ai_main.o src/battle_ai_main.c
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/battle_ai_switch_items.o src/battle_ai_switch_items.c
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/battle_ai_util.o src/battle_ai_util.c
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/battle_anim_bug.o src/battle_anim_bug.c
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/battle_anim.o src/battle_anim.c
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/battle_anim_dark.o src/battle_anim_dark.c
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/battle_anim_dragon.o src/battle_anim_dragon.c
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/battle_anim_effects_1.o src/battle_anim_effects_1.c
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/battle_anim_effects_2.o src/battle_anim_effects_2.c
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/battle_anim_effects_3.o src/battle_anim_effects_3.c
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/battle_anim_electric.o src/battle_anim_electric.c
+/usr/lib/gcc/arm-none-eabi/12.2.1/cc1 -quiet <flags> -o build/modern/src/battle_anim_fight.o src/battle_anim_fight.c

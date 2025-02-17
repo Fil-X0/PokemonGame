@@ -3,7 +3,7 @@
 @
 
 Route101_ObjectEvents:
-	object_event 1, OBJ_EVENT_GFX_YOUNGSTER, 16, 8, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, TRAINER_TYPE_NONE, 0, Route101_EventScript_Youngster, 0
+	object_event 1, OBJ_EVENT_GFX_YOUNGSTER, 3, 4, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, TRAINER_TYPE_NONE, 0, Route101_EventScript_Youngster, 0
 	object_event 2, OBJ_EVENT_GFX_PROF_BIRCH, 9, 13, 0, MOVEMENT_TYPE_JOG_IN_PLACE_RIGHT, 0, 0, TRAINER_TYPE_NONE, 0, 0x0, FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE
 	object_event 3, OBJ_EVENT_GFX_BIRCHS_BAG, 7, 14, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, TRAINER_TYPE_NONE, 0, Route101_EventScript_BirchsBag, FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	object_event 4, OBJ_EVENT_GFX_ZIGZAGOON_1, 10, 13, 0, MOVEMENT_TYPE_JOG_IN_PLACE_LEFT, 0, 0, TRAINER_TYPE_NONE, 0, 0x0, FLAG_HIDE_ROUTE_101_ZIGZAGOON
@@ -22,7 +22,7 @@ Route101_MapCoordEvents:
 	coord_event 7, 13, 3, VAR_ROUTE101_STATE, 2, Route101_EventScript_PreventExitNorth
 
 Route101_MapBGEvents:
-	bg_sign_event 5, 9, 0, BG_EVENT_PLAYER_FACING_ANY, Route101_EventScript_RouteSign
+	bg_sign_event 11, 8, 0, BG_EVENT_PLAYER_FACING_ANY, Route101_EventScript_RouteSign
 
 Route101_MapEvents::
 	map_events Route101_ObjectEvents, NULL, Route101_MapCoordEvents, Route101_MapBGEvents

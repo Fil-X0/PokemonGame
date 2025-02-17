@@ -54,27 +54,27 @@ const struct WildPokemon gRoute101_LandMons[] =
     { 2, 3, SPECIES_LECHONK },
     { 2, 3, SPECIES_SENTRET },
     { 2, 3, SPECIES_BUNEARY },
-    { 2, 3, SPECIES_GLAMEOW },
+    { 2, 3, SPECIES_AIPOM },
     { 2, 3, SPECIES_MEOWTH },
     { 2, 3, SPECIES_TEDDIURSA },
-    { 2, 3, SPECIES_DUNSPARCE },
+    { 2, 3, SPECIES_MUNCHLAX },
 };
 
 const struct WildPokemonInfo gRoute101_LandMonsInfo = { 50, gRoute101_LandMons };
 const struct WildPokemon gRoute102_LandMons[] =
 {
-    { 5, 5, SPECIES_SKIDDO },
-    { 5, 5, SPECIES_GOSSIFLEUR },
-    { 5, 5, SPECIES_SMOLIV },
-    { 5, 5, SPECIES_BOUNSWEET },
-    { 5, 5, SPECIES_EXEGGCUTE },
-    { 5, 5, SPECIES_LOTAD },
-    { 5, 5, SPECIES_DEERLING_SUMMER },
-    { 5, 5, SPECIES_CAPSAKID },
-    { 5, 5, SPECIES_CHERUBI },
-    { 5, 5, SPECIES_TOEDSCOOL },
-    { 5, 5, SPECIES_TANGELA },
-    { 5, 5, SPECIES_SUNKERN },
+    { 5, 5, SPECIES_WURMPLE },
+    { 5, 5, SPECIES_SEWADDLE },
+    { 5, 5, SPECIES_VENIPEDE },
+    { 5, 5, SPECIES_SCATTERBUG },
+    { 5, 5, SPECIES_DWEBBLE },
+    { 5, 5, SPECIES_KRICKETOT },
+    { 5, 5, SPECIES_RELLOR },
+    { 5, 5, SPECIES_PINECO },
+    { 5, 5, SPECIES_VOLBEAT },
+    { 5, 5, SPECIES_ILLUMISE },
+    { 5, 5, SPECIES_WEEDLE },
+    { 5, 5, SPECIES_GRUBBIN },
 };
 
 const struct WildPokemonInfo gRoute102_LandMonsInfo = { 50, gRoute102_LandMons };
@@ -105,18 +105,18 @@ const struct WildPokemon gRoute102_FishingMons[] =
 const struct WildPokemonInfo gRoute102_FishingMonsInfo = { 180, gRoute102_FishingMons };
 const struct WildPokemon gRoute103_LandMons[] =
 {
-    { 4, 4, SPECIES_STARLY },
-    { 4, 4, SPECIES_PIDOVE },
-    { 4, 4, SPECIES_PIDGEY },
-    { 4, 4, SPECIES_FLETCHLING },
-    { 4, 4, SPECIES_SPEAROW },
-    { 4, 4, SPECIES_PIKIPEK },
-    { 4, 4, SPECIES_SQUAWKABILLY_WHITE_PLUMAGE },
-    { 4, 4, SPECIES_RUFFLET },
-    { 4, 4, SPECIES_HOOTHOOT },
-    { 4, 4, SPECIES_NATU },
-    { 4, 4, SPECIES_MURKROW },
-    { 4, 4, SPECIES_TOGEPI },
+    { 4, 4, SPECIES_MACHOP },
+    { 4, 4, SPECIES_TIMBURR },
+    { 4, 4, SPECIES_MAKUHITA },
+    { 4, 4, SPECIES_MEDITITE },
+    { 4, 4, SPECIES_CROAGUNK },
+    { 4, 4, SPECIES_MIENFOO },
+    { 4, 4, SPECIES_PANCHAM },
+    { 4, 4, SPECIES_SCRAGGY },
+    { 4, 4, SPECIES_MANKEY },
+    { 4, 4, SPECIES_STUFFUL },
+    { 4, 4, SPECIES_TORCHIC },
+    { 4, 4, SPECIES_TEPIG },
 };
 
 const struct WildPokemonInfo gRoute103_LandMonsInfo = { 50, gRoute103_LandMons };
@@ -147,18 +147,18 @@ const struct WildPokemon gRoute103_FishingMons[] =
 const struct WildPokemonInfo gRoute103_FishingMonsInfo = { 180, gRoute103_FishingMons };
 const struct WildPokemon gRoute104_LandMons[] =
 {
-    { 6, 6, SPECIES_BUIZEL },
-    { 6, 6, SPECIES_LOTAD },
-    { 6, 6, SPECIES_POLIWAG },
-    { 6, 6, SPECIES_CORPHISH },
-    { 6, 6, SPECIES_CHEWTLE },
-    { 6, 6, SPECIES_WIGLETT },
-    { 6, 6, SPECIES_TIRTOUGA },
-    { 6, 6, SPECIES_WOOPER },
-    { 6, 6, SPECIES_BINACLE },
-    { 6, 6, SPECIES_KRABBY },
-    { 6, 6, SPECIES_SHELLOS_EAST_SEA },
-    { 6, 6, SPECIES_MARILL },
+    { 6, 6, SPECIES_SHINX },
+    { 6, 6, SPECIES_MAREEP },
+    { 6, 6, SPECIES_ELECTRIKE },
+    { 6, 6, SPECIES_BLITZLE },
+    { 6, 6, SPECIES_TYNAMO },
+    { 6, 6, SPECIES_HELIOPTILE },
+    { 6, 6, SPECIES_TADBULB },
+    { 6, 6, SPECIES_PACHIRISU },
+    { 6, 6, SPECIES_ELEKID },
+    { 6, 6, SPECIES_PICHU },
+    { 6, 6, SPECIES_TOGEDEMARU },
+    { 6, 6, SPECIES_PAWMI },
 };
 
 const struct WildPokemonInfo gRoute104_LandMonsInfo = { 50, gRoute104_LandMons };
@@ -537,18 +537,18 @@ const struct WildPokemon gRoute124_FishingMons[] =
 const struct WildPokemonInfo gRoute124_FishingMonsInfo = { 30, gRoute124_FishingMons };
 const struct WildPokemon gPetalburgWoods_LandMons[] =
 {
-    { 6, 6, SPECIES_WURMPLE },
-    { 6, 6, SPECIES_SEWADDLE },
-    { 6, 6, SPECIES_PINECO },
-    { 6, 6, SPECIES_COMBEE },
-    { 6, 6, SPECIES_TAROUNTULA },
-    { 6, 6, SPECIES_BLIPBUG },
-    { 6, 6, SPECIES_LEDYBA },
-    { 6, 6, SPECIES_NYMBLE },
-    { 6, 6, SPECIES_SPINARAK },
-    { 6, 6, SPECIES_KRICKETOT },
-    { 6, 6, SPECIES_SCATTERBUG },
-    { 6, 6, SPECIES_WEEDLE },
+    { 6, 6, SPECIES_SKIDDO },
+    { 6, 6, SPECIES_ODDISH },
+    { 6, 6, SPECIES_SMOLIV },
+    { 6, 6, SPECIES_DEERLING_SUMMER },
+    { 6, 6, SPECIES_EXEGGCUTE },
+    { 6, 6, SPECIES_TOEDSCOOL },
+    { 6, 6, SPECIES_LOTAD },
+    { 6, 6, SPECIES_BUDEW },
+    { 6, 6, SPECIES_SUNKERN },
+    { 6, 6, SPECIES_TANGELA },
+    { 6, 6, SPECIES_BULBASAUR },
+    { 6, 6, SPECIES_SNIVY },
 };
 
 const struct WildPokemonInfo gPetalburgWoods_LandMonsInfo = { 20, gPetalburgWoods_LandMons };
@@ -2567,6 +2567,23 @@ const struct WildPokemon gEverGrandeCity_FishingMons[] =
 };
 
 const struct WildPokemonInfo gEverGrandeCity_FishingMonsInfo = { 10, gEverGrandeCity_FishingMons };
+const struct WildPokemon gPetalburgCity_LandMons[] =
+{
+    { 5, 5, SPECIES_BUIZEL },
+    { 5, 5, SPECIES_PSYDUCK },
+    { 5, 5, SPECIES_BINACLE },
+    { 5, 5, SPECIES_CORPHISH },
+    { 5, 5, SPECIES_LOTAD },
+    { 5, 5, SPECIES_KRABBY },
+    { 5, 5, SPECIES_STARYU },
+    { 5, 5, SPECIES_CHEWTLE },
+    { 5, 5, SPECIES_MARILL },
+    { 5, 5, SPECIES_TATSUGIRI_CURLY },
+    { 5, 5, SPECIES_TOTODILE },
+    { 5, 5, SPECIES_OSHAWOTT },
+};
+
+const struct WildPokemonInfo gPetalburgCity_LandMonsInfo = { 0, gPetalburgCity_LandMons };
 const struct WildPokemon gPetalburgCity_WaterMons[] =
 {
     { 5, 5, SPECIES_POPPLIO },
@@ -3226,7 +3243,7 @@ const struct WildPokemon gOldaleTown0_LandMons[] =
     { 2, 3, SPECIES_SALANDIT },
     { 2, 3, SPECIES_FLETCHLING },
     { 2, 3, SPECIES_VULPIX },
-    { 2, 3, SPECIES_CAPSAKID },
+    { 2, 3, SPECIES_PONYTA_GALARIAN },
     { 2, 3, SPECIES_SUNKERN },
 };
 
@@ -3236,13 +3253,13 @@ const struct WildPokemon gRustboroCity0_LandMons[] =
     { 7, 7, SPECIES_CUBONE },
     { 7, 7, SPECIES_SANDSHREW },
     { 7, 7, SPECIES_PHANPY },
-    { 7, 7, SPECIES_MACHOP },
-    { 7, 7, SPECIES_MUDBRAY },
-    { 7, 7, SPECIES_MEOWTH_GALARIAN },
-    { 7, 7, SPECIES_TIMBURR },
-    { 7, 7, SPECIES_TOGEDEMARU },
-    { 7, 7, SPECIES_SCRAGGY },
+    { 7, 7, SPECIES_SWINUB },
+    { 7, 7, SPECIES_CLAYDOL },
+    { 7, 7, SPECIES_NUMEL },
+    { 7, 7, SPECIES_SANDILE },
     { 7, 7, SPECIES_TOEDSCOOL },
+    { 7, 7, SPECIES_MUDBRAY },
+    { 7, 7, SPECIES_DRILBUR },
     { 7, 7, SPECIES_GLIGAR },
     { 7, 7, SPECIES_WOOPER_PALDEAN },
 };
@@ -4075,7 +4092,7 @@ const struct WildPokemonHeader gWildMonHeaders[] =
     {
         .mapGroup = MAP_GROUP(PETALBURG_CITY),
         .mapNum = MAP_NUM(PETALBURG_CITY),
-        .landMonsInfo = NULL,
+        .landMonsInfo = &gPetalburgCity_LandMonsInfo,
         .waterMonsInfo = &gPetalburgCity_WaterMonsInfo,
         .rockSmashMonsInfo = NULL,
         .fishingMonsInfo = &gPetalburgCity_FishingMonsInfo,

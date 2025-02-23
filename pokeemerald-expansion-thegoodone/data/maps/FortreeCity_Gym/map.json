@@ -49,16 +49,16 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "2",
+      "trainer_sight_or_berry_tree_id": "1",
       "script": "FortreeCity_Gym_EventScript_Flint",
       "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
-      "x": 5,
-      "y": 17,
+      "x": 10,
+      "y": 3,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -94,10 +94,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
-      "x": 4,
-      "y": 23,
+      "x": 9,
+      "y": 21,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -114,7 +114,7 @@
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "3",
+      "trainer_sight_or_berry_tree_id": "4",
       "script": "FortreeCity_Gym_EventScript_Darius",
       "flag": "0"
     }

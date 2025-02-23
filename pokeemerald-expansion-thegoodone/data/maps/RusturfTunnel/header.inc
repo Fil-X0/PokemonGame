@@ -11,7 +11,7 @@ RusturfTunnel:
 	.2byte LAYOUT_RUSTURF_TUNNEL
 	.byte MAPSEC_RUSTURF_TUNNEL
 	.byte FALSE
-	.byte WEATHER_FOG_HORIZONTAL
+	.byte WEATHER_NONE
 	.byte MAP_TYPE_UNDERGROUND
 	.2byte 0
 	map_header_flags allow_cycling=TRUE, allow_escaping=TRUE, allow_running=TRUE, show_map_name=TRUE
